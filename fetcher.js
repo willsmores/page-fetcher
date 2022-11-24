@@ -21,18 +21,5 @@ request(url, (error, response, body) => {
   });
 
   // Calculate number of bytes (1 per character) and print to terminal
-  console.log(`Downloaded and saved ${body.length} bytes to ${localFilePath}`)
-
-
-
-
+  console.log(`Downloaded and saved ${body.length} bytes to ${localFilePath}`);
 });
-
-
-
-
-
-
-
-
-
